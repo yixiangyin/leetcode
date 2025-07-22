@@ -1,0 +1,26 @@
+# ------------------------------------------------------------
+# Problem: <Problem Title>
+# URL: <Link to the problem>
+# ------------------------------------------------------------
+# Approach:
+#   <Briefly describe your encoding/decoding or main algorithm idea>
+#
+# Complexity:
+#   Time:  O(<time complexity>)  # explain variables if needed
+#   Space: O(<space complexity>) # explain variables if needed
+# ------------------------------------------------------------
+
+
+# ------------------------------------------------------------
+# Problem: 659 · Encode and Decode Strings
+# URL: https://www.lintcode.com/problem/659/
+# ------------------------------------------------------------
+# Approach:
+#   To encode: for each string, append "<len>#<str>"
+#   To decode: scan through, read until '#', parse length, then recover substring
+#
+# Complexity:
+#   Time:  O(m) for encode/decode
+#   Space: O(m + n) for encode/decode
+#   where m is the sum of length of all the strings and n is the number of strings
+# ------------------------------------------------------------
