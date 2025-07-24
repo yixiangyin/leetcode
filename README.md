@@ -4,6 +4,7 @@ This repository is to track my leetcode practice. The solution is written in pyt
 ## neetcode 150
 - [x] Encode and Decode Strings
 - [x] Product of Array Except Self
+- [x] Valid Sudoku
 ## blind curated 75
 
 ## resources
